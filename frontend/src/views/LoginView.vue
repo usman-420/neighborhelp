@@ -49,7 +49,7 @@ function useDemo(demoEmail) {
   <div class="auth-wrapper">
     <div class="card">
       <h1 class="auth-title">NeighborHelp</h1>
-      <p class="auth-sub">Connect with your Mechelen community</p>
+      <p class="auth-sub">Connect with your community</p>
 
       <div v-if="serverError" class="alert-error">{{ serverError }}</div>
 
